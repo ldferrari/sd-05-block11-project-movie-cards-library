@@ -9,9 +9,8 @@ function App() {
     <div className="App">
       <Header />
       <div>
-        <MovieList movies={ Movies } />
+        <MovieList movies={Movies} />
       </div>
-    
     </div>
   );
 }
