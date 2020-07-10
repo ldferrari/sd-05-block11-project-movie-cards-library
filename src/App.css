@@ -81,3 +81,8 @@ body {
   justify-content: flex-end;
   padding: 12px 20px;
 }
+
+.rating-text {
+  text-align: center;
+  width: 200px;
+}
