@@ -1,7 +1,7 @@
 // implement MovieCard component here
 import React from 'react';
 
-class MovieCard extends React.Component{
+class MovieCard extends React.Component {
   render() {
     const { title, subtitle, storyline, imagePath, rating } = this.props;
     return (
@@ -10,8 +10,9 @@ class MovieCard extends React.Component{
         {subtitle}
         {storyline}
         {rating}
+        <img alt={'Picture of ' + title + ' movie'} src={imagePath}></img>
       </div>
-    )
+    );
   }
 }
 
