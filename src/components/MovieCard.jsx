@@ -2,13 +2,13 @@
 
 import React from 'react';
 
-class MovieCard extends React.Component{
+class MovieCard extends React.Component {
   render() {
-    return (
-      <div>
-        <p>blabla</p>
-      </div>
-    )
+    // return (
+    //   <div>
+    //     <p>blabla</p>
+    //   </div>
+    // );
   }
 }
 

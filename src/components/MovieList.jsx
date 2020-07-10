@@ -15,18 +15,18 @@ class MovieList extends React.Component {
   render() {
     const allMovies = this.props.movies;
     return (
-    <div>
+     <div>
       {(allMovies.map((movie) =>
-    <MovieCard movie={movie} key={movie.title} />))
+        <MovieCard movie={movie} key={movie.title} />))
     }
     </div>
-    )
-  };
+    );
+  }
 }
 
 // 5. Passe uma key para cada MovieCard renderizado
 // MovieList deve renderizar MovieCards de forma dinâmica.
 // Ou seja, deve utilizar a função map para renderizar uma lista.
 // Cada componente MovieCard deve receber uma prop key com o nome do filme.
-   
+ 
 export default MovieList;
