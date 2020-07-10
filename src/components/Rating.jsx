@@ -1,12 +1,10 @@
-// implement Rating component here
+{/* implement Rating component here
 import React from 'react';
 
 class Rating extends React.Component {
   render() {
-    return (
-
-    );
+    return ()
   }
 }
 
-export default Rating
+export default Rating /*}
