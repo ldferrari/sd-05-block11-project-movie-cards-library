@@ -6,10 +6,10 @@ import movies from './data.js';
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Header />
-      <div className='movieList'>
-        <MovieList movies={movies}/>
+      <div className="movieList">
+        <MovieList movies={movies} />
       </div>
     </div>
   );
