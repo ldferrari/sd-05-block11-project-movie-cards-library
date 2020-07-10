@@ -3,13 +3,10 @@
 import React from 'react';
 
 class MovieCard extends React.Component {
-  render() {
-    // return (
-    //   <div>
-    //     <p>blabla</p>
-    //   </div>
-    // );
-  }
+  // render() {
+  //   return (
+  //   );
+  // }
 }
 
 export default MovieCard;
