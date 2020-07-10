@@ -2,13 +2,19 @@
 import React from 'react';
 
 // 6. MovieCard recebe prop movie, objeto contendo propriedades title, subtitle, storyline, imagePath e rating.
-// 7. Renderiza tag img, src com valor da propriedade imagePath.
+// 7 - 10 para renderizar todas essas propriedades.
 
 class MovieCard extends React.Component {
   render() {
-    const { title, subtitle, storyline, imagePath, rating } = this.props.movie;
+    const { title, subtitle, storyline, imagePath } = this.props.movie;
     return (
-      <img src={this.props.movie.imagePath}></img>
+      <div>
+      <img src={imagePath} />
+      <h4>{title}</h4>
+      <h5>{subtitle}</h5>
+      <p>{storyline}</p>
+      </div>
+
     );
   }
 }
