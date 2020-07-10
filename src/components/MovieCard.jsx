@@ -2,8 +2,8 @@ import React from 'react';
 
 class MovieCard extends React.Component {
   render() {
-    const { title, subtitle, storyline, imagePath, rating } = this.props.movie;
-    return ( 
+    const { title, imagePath } = this.props.movie;
+    return (
       <p>
         {title}
         <img src={imagePath} alt={title} />
@@ -13,8 +13,3 @@ class MovieCard extends React.Component {
 }
 
 export default MovieCard;
-
-
-
-
-

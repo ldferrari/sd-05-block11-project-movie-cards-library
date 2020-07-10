@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import Movies from './data'
+import Movies from './data';
 import MovieList from './components/MovieList';
 
 function App() {
@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <Header />
       <div>
-        <MovieList movies={Movies}/>
+        <MovieList movies={ Movies } />
       </div>
-      
+    
     </div>
   );
 }
