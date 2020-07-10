@@ -1,4 +1,3 @@
-// implement MovieList component here
 import React from 'react';
 import '../App.css';
 import Header from '../components/Header';
@@ -9,7 +8,7 @@ class MovieList extends React.Component {
 		const { movies } = this.props;
 		return (
 			<div>
-				{movies.map((elemento, index) => <MovieCard  key={index} cards={elemento}/>)}
+				{movies.map((elemento, index) => <MovieCard key={index} cards={elemento} />)}
 			</div>
 		);
 	}
