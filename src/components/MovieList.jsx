@@ -4,7 +4,7 @@ import MovieCard from '../components/MovieCard'
 import '../App.css';
 
 class MovieList extends React.Component {
-		render() {
+	render() {
 		const { movies } = this.props;
 		return (
 			<div>
@@ -15,3 +15,4 @@ class MovieList extends React.Component {
 }
 
 export default MovieList;
+	
