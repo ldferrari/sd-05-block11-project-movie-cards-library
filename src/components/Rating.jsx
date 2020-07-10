@@ -1,9 +1,9 @@
-{ /* import React from 'react';
+import React from 'react';
 
 class Rating extends React.Component {
   render() {
-    return ()
+    return ();
   }
 }
 
-export default Rating */ }
+export default Rating
