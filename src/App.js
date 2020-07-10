@@ -7,9 +7,9 @@ import movies from './data';
 function App() {
   return (
     <div className="App">
-        < Header />
+      <Header />
       <div className="movie-list">
-        < MovieList movies={movies} />
+        <MovieList movies={movies} />
       </div>
     </div>
   );
