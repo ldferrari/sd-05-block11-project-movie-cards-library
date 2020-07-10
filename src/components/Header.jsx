@@ -1,17 +1,12 @@
-// implement Header component here
+import React from 'react';
 
-// 2 Renderize o texto "Movie Cards Library" dentro de Header
-// O texto deverá estar dentro de uma tag h1, que por sua vez deve estar dentro de uma tag header.
-
-import React from 'react'
-
-class Header extends React.Component{
-  render () {
+class Header extends React.Component {
+  render() {
     return (
-      <header>
-        <h1>Movie Cards Library</h1>
+      <header className="movie-card-header">
+        <h1 className="page-title">Movie Cards Library</h1>
       </header>
-    )
+    );
   }
 }
 
