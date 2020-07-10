@@ -9,7 +9,7 @@ class Rating extends React.Component {
         </div>
       </div>
     );
-  };
+  }
 }
 
 export default Rating;
