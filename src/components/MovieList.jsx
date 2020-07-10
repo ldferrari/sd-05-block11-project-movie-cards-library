@@ -1,10 +1,10 @@
 import React from 'react';
-import '../App.css';
 import Header from '../components/Header';
 import MovieCard from '../components/MovieCard'
+import '../App.css';
 
 class MovieList extends React.Component {
-	render() {
+		render() {
 		const { movies } = this.props;
 		return (
 			<div>
