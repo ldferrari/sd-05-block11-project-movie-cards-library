@@ -1,6 +1,6 @@
 // implement MovieCard component here
 import React from 'react';
-import Rating from '.component/Rating.jsx'
+// import Rating from '.component/Rating.jsx';
 
 class MovieCard extends React.Component {
   render() {
@@ -8,7 +8,7 @@ class MovieCard extends React.Component {
     const { rating } = this.props.rating;
     return (
       <div>
-        <img src={imagePath}></img>,
+        <img src={imagePath} alt="imagem"/>,
         <h4>{title}</h4>,
         <h5>{subtitle}</h5>,
         <p>{storyline}</p>,
@@ -18,4 +18,4 @@ class MovieCard extends React.Component {
   }
 }
 
-export default MovieCard
+export default MovieCard;
