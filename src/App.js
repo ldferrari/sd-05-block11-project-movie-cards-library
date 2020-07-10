@@ -7,8 +7,8 @@ import MovieList from '../src/components/MovieList';
 function App() {
   return (
     <div className="App">
-      { <Header /> }
-      { < MovieList movies={Library} /> }
+      { <Header />}
+      { < MovieList movies={Library} />}
     </div>
   );
 }
