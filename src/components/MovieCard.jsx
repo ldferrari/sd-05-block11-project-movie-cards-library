@@ -1,5 +1,6 @@
 // implement MovieCard component here
 import React from 'react';
+import Rating from './Rating.jsx';
 
 // 6. MovieCard recebe prop movie, objeto contendo propriedades:
 //  title, subtitle, storyline, imagePath e rating.
@@ -7,15 +8,17 @@ import React from 'react';
 
 class MovieCard extends React.Component {
   render() {
-    const { title, subtitle, storyline, imagePath } = this.props.movie;
+    const { title, subtitle, storyline, imagePath, rating } = this.props.movie;
     return (
-      <div>
+      <section>
         <img src={imagePath} alt="moviepic" />
         <h4>{title}</h4>
         <h5>{subtitle}</h5>
         <p>{storyline}</p>
-      </div>
-
+        <div className="rating">
+          <Rating rating={rating} />
+        </div>
+      </section>
     );
   }
 }
