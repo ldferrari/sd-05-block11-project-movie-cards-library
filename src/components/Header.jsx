@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
       <div className="movie-card-header">
         <header>
-          <h1>Movie Cards Library</h1>
+          <h1 className="page-title">Movie Cards Library</h1>
         </header>
       </div>
     );
