@@ -1,3 +1,1 @@
 // implement Rating component here
-
-.
