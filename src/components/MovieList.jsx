@@ -4,7 +4,9 @@ import MovieCard from './MovieCard';
 class MovieList extends React.Component {
   render() {
     return this.props.movies.map((movie) => (
-      <MovieCard key={movie.title} movie={movie} />
+      <div className="movie-list">
+        <MovieCard key={movie.title} movie={movie} />
+      </div>
     ));
   }
 }
