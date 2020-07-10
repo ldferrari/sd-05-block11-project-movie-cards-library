@@ -5,13 +5,13 @@ import movies from '../data';
 
 class MovieList extends React.Component {
   render() {
-    return movies.map(movie => (
+    return movies.map((movie) => (
       <MovieCard
-      title={movie.title}
-      subtitle={movie.subtitle}
-      storyline={movie.storyline}
-      imagePath={movie.imagePath}
-      rating={movie.rating}
+        title={movie.title}
+        subtitle={movie.subtitle}
+        storyline={movie.storyline}
+        imagePath={movie.imagePath}
+        rating={movie.rating}
       />
     ));
   }
