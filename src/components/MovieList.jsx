@@ -1,7 +1,7 @@
 // implement MovieList component here
 import React from 'react';
 import '../App.css';
-import Header from './Header';
+import Header from '../components/Header';
 import MovieCard from '../components/MovieCard'
 
 class MovieList extends React.Component {
