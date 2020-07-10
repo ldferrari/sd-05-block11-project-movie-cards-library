@@ -3,6 +3,7 @@ import React from 'react';
 
 class MovieCard extends React.Component {
     render() {
+      const { title, subtitle, storyline, rating, imagePath } = this.props.movie;
       return(
         <div className='movie-container'>
           <div className='movie-details'>
@@ -12,7 +13,7 @@ class MovieCard extends React.Component {
             <p> StoryLine: { this.props.movie.storyline } </p>
           </div>
           <div className='movie-img'>
-            <img src={ this.props.movie.imagePath } />
+            <img src={ imagePath } alt={ title } />
           </div>
         </div>
 
