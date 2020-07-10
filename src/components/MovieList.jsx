@@ -14,11 +14,14 @@ import MovieCard from './MovieCard';
 class MovieList extends React.Component {
   render() {
     const allMovies = this.props.movies;
-    const list = allMovies.map((movie) => {
-      return <MovieCard movie={movie} key={movie.title} />;
-    });
-    return list;
-  }
+    return (
+    <div>
+      {(allMovies.map((movie) =>
+    <MovieCard movie={movie} key={movie.title} />))
+    }
+    </div>
+    )
+  };
 }
 
 // 5. Passe uma key para cada MovieCard renderizado
