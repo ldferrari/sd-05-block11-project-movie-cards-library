@@ -1,15 +1,19 @@
 import React from 'react';
 
-function movieCard(props) {
-  return (
-    <div>
-      <img src={props.imagePath} alt="Film card" width="300px" />
-      <h2>{props.title}</h2>
-      <h3>{props.subtitle}</h3>
-      <p>Storyline: {props.storyline}</p>
-      <p>Rating: {props.rating}</p>
-    </div>
-  );
+
+class MovieCard extends React.Component {
+  render() {
+    const { imagePath, title, subtitle, storyline, rating } = this.props.movie;
+    return (
+      <div>
+        <img src={imagePath} alt="Film card" width="300px" />
+        <h4>{title}</h4>
+        <h5>{subtitle}</h5>
+        <p>{storyline}</p>
+        <p>{rating}</p>
+      </div>
+    );
+  }
 }
 
-export default movieCard;
+export default MovieCard;
