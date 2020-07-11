@@ -84,8 +84,9 @@ body {
 
 .header {
   background-color: #6c757d;
-  border: 5px solid red;
-  color: red;
+  border: 1px solid;
+  color: white;
   display: flex;
+  justify-content: center;
   padding: 30px;
 }
