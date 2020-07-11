@@ -6,8 +6,8 @@ class MovieCard extends React.Component {
     return (
       <section className="movies">
         <div>
-          <p>{this.props.title}</p>
-          <p>{this.props.subtitle}</p>
+          <h4>{this.props.title}</h4>
+          <h5>{this.props.subtitle}</h5>
           <p>{this.props.storyline}</p>
         </div>
         <div>

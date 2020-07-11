@@ -5,7 +5,7 @@ import movies from '../data';
 
 class MovieList extends React.Component {
   render() {
-    return movies.forEach((movie) => (
+    return movies.map((movie) => (
       <MovieCard
         title={movie.title}
         subtitle={movie.subtitle}
