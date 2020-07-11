@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <section >
-      <MovieList movies={Filmes} />
+        <MovieList movies={Filmes} />
       </section>
     </div>
   );
