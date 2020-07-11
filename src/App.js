@@ -2,12 +2,15 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import MovieList from './components/MovieList';
+import Filmes from './data';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <MovieList />
+      <section >
+      <MovieList movies={Filmes} />
+      </section>
     </div>
   );
 }
