@@ -98,13 +98,13 @@ describe('<MovieCard /> component', () => {
     expect(wrapper.find('p').text()).toBe('Movie Storyline 1');
   });
 
-  it.skip('renders a `Rating` component', () => {
+  it('renders a `Rating` component', () => {
     wrapper = shallow(<MovieCard movie={movie} />);
 
     expect(wrapper.find('Rating').length).toEqual(1);
   });
 
-  it.skip('passes the rating attribute to the `Rating` component', () => {
+  it('passes the rating attribute to the `Rating` component', () => {
     wrapper = mount(<MovieCard movie={movie} />);
     const starRating = wrapper.find(Rating);
 
