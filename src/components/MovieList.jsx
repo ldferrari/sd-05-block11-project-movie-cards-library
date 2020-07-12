@@ -6,10 +6,10 @@ export default class ConteinerCard extends Component {
     const { movies } = this.props;
     return (
       <div className="movie-list">
-          {movies.map((movie) => (
-          <MovieCard ky={movie.title} movie={movie} />
+      {movies.map((movie) => (
+            <MovieCard ky={movie.title} movie={movie} />
         ))}
-        </div>
+      </div>
     );
   }
 }
