@@ -5,7 +5,7 @@ export default class CardMovies extends Component {
     const { title, subtitle, storyline, imagePath, rating } = this.props.movies;
     return (
       <div className="movie-card">
-        <img src={imagePath}alt="Foto-Card" className="movie-card-image" />
+        <img src={imagePath} alt="Foto-Card" className="movie-card-image" />
         <div className="movie-card-body">
           <h4 className="movie-card-title">{title}</h4>
           <h5 className="movie-card-subtitle">{subtitle}</h5>
