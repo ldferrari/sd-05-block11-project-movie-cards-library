@@ -7,15 +7,12 @@ class MovieCard extends React.Component {
     return (
       <div>
         <strong><h4>{title}</h4></strong>,
-      
         made by <em>{subtitle}</em>,
         sold {storyline} units
         tested by {rating}
-        with <img src={imagePath} />
-    
-    </div>
+        with <img src={imagePath} alt={title} />
+      </div>
     );
   }
 }
-
 export default MovieCard;
