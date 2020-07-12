@@ -22,7 +22,14 @@ body {
 .movie-list {
   display: flex;
   flex-flow: row wrap;
-  padding: 48px 30px;
+  /* height: 550px; */
+  overflow-x: auto;
+  padding: 65px 30px;
+  scroll-snap-type: x mandatory;
+}
+
+.row__inner {
+  display: flex;
 }
 
 .movie-card {
@@ -31,12 +38,31 @@ body {
   border-radius: 3px;
   display: flex;
   flex-direction: column;
-  height: 450px;
+  height: 420px;
   margin: 5px;
   overflow: hidden;
+  position: relative;
+  scroll-snap-align: start;
+  transition: transform 500ms;
   width: 300px;
+  -webkit-overflow-scrolling: touch;
 }
 
+.movie-list:focus-within .movie-card,
+.movie-list:hover .movie-card {
+  transform: translateX(-10%);
+}
+
+.movie-card:focus ~ .movie-card,
+.movie-card:hover ~ .movie-card {
+  transform: translateX(10%);
+}
+
+.movie-list .movie-card:focus, 
+.movie-list .movie-card:hover {
+  transform: scale(1.25);
+  z-index: 1;
+}
 
 .movie-card-image {
   width: 100%;
@@ -44,7 +70,7 @@ body {
 
 .movie-card-body {
   flex: 1 1 auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .movie-card-title {
@@ -81,3 +107,4 @@ body {
   justify-content: flex-end;
   padding: 12px 20px;
 }
+
