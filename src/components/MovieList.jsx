@@ -7,7 +7,7 @@ export default class ConteinerCard extends Component {
     return (
       <div className="movie-list">
         {movies.map((movie) => (
-        <MovieCard ky={movie.title} movie={movie} />
+          <MovieCard ky={movie.title} movie={movie} />
         ))}
       </div>
     );
