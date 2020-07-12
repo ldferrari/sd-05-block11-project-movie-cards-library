@@ -22,6 +22,7 @@ body {
 .movie-list {
   display: flex;
   flex-flow: row wrap;
+
   /* height: 550px; */
   overflow-x: auto;
   padding: 65px 30px;
@@ -33,6 +34,7 @@ body {
 }
 
 .movie-card {
+  -webkit-overflow-scrolling: touch;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 3px;
@@ -45,20 +47,19 @@ body {
   scroll-snap-align: start;
   transition: transform 500ms;
   width: 300px;
-  -webkit-overflow-scrolling: touch;
 }
 
-.movie-list:focus-within .movie-card,
+.movie-list:focus-within .movie-card , 
 .movie-list:hover .movie-card {
   transform: translateX(-10%);
 }
 
-.movie-card:focus ~ .movie-card,
+.movie-card:focus ~ .movie-card , 
 .movie-card:hover ~ .movie-card {
   transform: translateX(10%);
 }
 
-.movie-list .movie-card:focus, 
+.movie-list .movie-card:focus , 
 .movie-list .movie-card:hover {
   transform: scale(1.25);
   z-index: 1;
@@ -107,4 +108,3 @@ body {
   justify-content: flex-end;
   padding: 12px 20px;
 }
-
