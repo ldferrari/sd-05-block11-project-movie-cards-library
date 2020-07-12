@@ -49,17 +49,17 @@ body {
   width: 300px;
 }
 
-.movie-list:focus-within .movie-card , 
+.movie-list:focus-within .movie-card ,
 .movie-list:hover .movie-card {
   transform: translateX(-10%);
 }
 
-.movie-card:focus ~ .movie-card , 
+.movie-card:focus ~ .movie-card ,
 .movie-card:hover ~ .movie-card {
   transform: translateX(10%);
 }
 
-.movie-list .movie-card:focus , 
+.movie-list .movie-card:focus ,
 .movie-list .movie-card:hover {
   transform: scale(1.25);
   z-index: 1;
