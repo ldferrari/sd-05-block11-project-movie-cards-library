@@ -7,8 +7,8 @@ class MovieCard extends React.Component {
     return (
       <div>
         <strong><h4>{title}</h4></strong>,
-        made by <em>{subtitle}</em>,
-        sold {storyline} units
+        <h5>{subtitle}</h5>
+        <p>{storyline}</p>
         tested by {rating}
         with <img src={imagePath} alt={title} />
       </div>
