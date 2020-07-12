@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="App">
       {
-        <Header text='Movie Cards Library'/>
+        // <Header text='Movie Cards Library'/>
+        <Header />
       }
 
     </div>
   );
 }
-
 export default App;
