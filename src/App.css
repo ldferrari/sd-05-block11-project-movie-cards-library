@@ -22,8 +22,6 @@ body {
 .movie-list {
   display: flex;
   flex-flow: row wrap;
-
-  /* height: 550px; */
   overflow-x: auto;
   padding: 65px 30px;
   scroll-snap-type: x mandatory;
@@ -34,7 +32,6 @@ body {
 }
 
 .movie-card {
-  -webkit-overflow-scrolling: touch;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 3px;
@@ -47,6 +44,7 @@ body {
   scroll-snap-align: start;
   transition: transform 500ms;
   width: 300px;
+  -webkit-overflow-scrolling: touch;
 }
 
 .movie-list:focus-within .movie-card ,
