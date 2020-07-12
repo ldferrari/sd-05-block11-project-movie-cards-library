@@ -24,7 +24,6 @@ body {
   flex-flow: row wrap;
   overflow-x: auto;
   padding: 65px 30px;
-  scroll-snap-type: x mandatory;
 }
 
 .row__inner {
@@ -41,10 +40,8 @@ body {
   margin: 5px;
   overflow: hidden;
   position: relative;
-  scroll-snap-align: start;
   transition: transform 500ms;
   width: 300px;
-  -webkit-overflow-scrolling: touch;
 }
 
 .movie-list:focus-within .movie-card ,
@@ -52,13 +49,11 @@ body {
   transform: translateX(-10%);
 }
 
-.movie-card:focus ~ .movie-card ,
-.movie-card:hover ~ .movie-card {
+.movie-card:focus ~ .movie-card , .movie-card:hover ~ .movie-card {
   transform: translateX(10%);
 }
 
-.movie-list .movie-card:focus ,
-.movie-list .movie-card:hover {
+.movie-list .movie-card:focus , .movie-list .movie-card:hover {
   transform: scale(1.25);
   z-index: 1;
 }
