@@ -44,8 +44,7 @@ body {
   width: 300px;
 }
 
-.movie-list:focus-within .movie-card ,
-.movie-list:hover .movie-card {
+.movie-list:focus-within .movie-card , .movie-list:hover .movie-card {
   transform: translateX(-10%);
 }
 
