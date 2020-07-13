@@ -9,7 +9,7 @@ class Rating extends React.Component {
       height: '10%',
     };
     return (
-      <div className="rating" style={divstl}> {rating} </div>
+      <div className="rating" style={divstl}>{rating}</div>
     );
   }
 
