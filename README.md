@@ -125,7 +125,7 @@ Este componente representará toda a área com os cartões de filmes. `MovieList
 
 `MovieList` deve renderizar um componente `MovieCard` para cada objeto contido no array recebido na prop `movies`.
 
-#### 5 Passe uma key para cada `MovieCard` renderizado
+#### 5 class HeaderPasse uma key para cada `MovieCard` renderizado
 
 `MovieList` deve renderizar `MovieCard`s de forma dinâmica. Ou seja, deve utilizar a função `map` para renderizar uma lista. Cada componente `MovieCard` deve receber uma prop `key` com o nome do filme.
 
