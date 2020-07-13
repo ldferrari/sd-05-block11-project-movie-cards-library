@@ -1,6 +1,6 @@
 import React from 'react';
 import Rating from './Rating';
-//class nomeDoComponete extends React.Component{render(){}}
+// class nomeDoComponete extends React.Component{render(){}}
 class MovieCard extends React.Component {
   render() {
     const { title, subtitle, storyline, imagePath, rating } = this.props.movie;

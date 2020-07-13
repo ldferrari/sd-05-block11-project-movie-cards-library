@@ -1,5 +1,5 @@
 import React from 'react';
-//class nomeDoComponete extends React.Component{render(){}}
+// class nomeDoComponete extends React.Component{render(){}}
 class Rating extends React.Component {
   render() {
     const { rating } = this.props;
