@@ -1,15 +1,15 @@
 import React from 'react';
-import MovieCard from './MovieCard'
-import data from '../data'
+import MovieCard from './MovieCard';
+
 class MovieList extends React.Component {
-  render () {
-    const Movies = this.props.movies
+  render() {
+    const Movies = this.props.movies;
     return (
-      <div>
-        {Movies.map(each => <MovieCard movie={each} key={each.title}/>)}
+      <div className='movie-list'>
+        {Movies.map((each) => <MovieCard movie={each} key={each.title} />)}
       </div>
-    )
+    );
   }
-} 
+}
 
 export default MovieList
