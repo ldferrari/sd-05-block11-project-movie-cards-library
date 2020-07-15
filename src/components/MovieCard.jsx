@@ -1,9 +1,10 @@
 // implement MovieCard component here
-import React from 'react'
+import React from 'react';
 
 class MovieCard extends React.Component {
-    render () {
-    }
+  render() {
+    return <h1>dog</h1>;
+  }
 }
 
-export default MovieCard
+export default MovieCard;
