@@ -1,6 +1,6 @@
 // implement MovieList component here
 import React from 'react';
-import MovieCard from '../../../sd-05-block12-project-movie-card-library-stateful/src/components/MovieCard';
+import MovieCard from './MovieCard';
 
 class MovieList extends React.Component {
   render() {

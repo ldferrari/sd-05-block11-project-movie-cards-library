@@ -1,6 +1,6 @@
 // implement MovieCard component here
 import React from 'react';
-import Rating from '../../../sd-05-block12-project-movie-card-library-stateful/src/components/Rating';
+import Rating from './Rating';
 
 class MovieCard extends React.Component {
   render() {
