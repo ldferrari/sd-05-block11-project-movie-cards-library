@@ -1,15 +1,17 @@
-// implement MovieList component here
-// import React from 'react';
+import React from 'react';
+import MovieCard from './MovieCard';
 
-// class MovieList extends React.Component {
-  // render() {
-    // deve receber prop movies
-    /* Movielist deve renderizar MovieCard para cada objeto
-    contido no array do prop movies
-    Deve utilizar função map (renderização dinâmica) p/ renderizar
-    uma lista. Cada componente MovieCard deve receber prop key com nome do filme. */
+class MovieList extends React.Component {
+  render() {
+    const { movies } = this.props;
+    return (
+      <div>
+        {movies.map((movie) => (
+          <MovieCard movie={movie} key={movie.title} />
+        ))}
+      </div>
+    );
+  }
+}
 
-  // }
-// }
-
-// export default MovieList;
+export default MovieList;

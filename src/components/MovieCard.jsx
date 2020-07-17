@@ -1,28 +1,20 @@
+import React from 'react';
+import Rating from './Rating';
 
-// import React from 'react';
+class MovieCard extends React.Component {
+  render() {
+    const { title, subtitle, storyline, imagePath, rating} = this.props.movie;
+    
+    return (
+    <div>
+      <img src={imagePath} alt={title} />
+      <h4>{title}</h4>
+      <h5>{subtitle}</h5>
+      <p>{storyline}</p>
+      <Rating rating={rating} />
+    </div>
+    );
+  }
+}
 
-// class MovieCard {
-  // render() {
-    /* MovieCard recebe prop movie, será objeto, possuí title,
-    subtitle, storyline, imagePath e rating.
-
-    deve renderizar tag img, tendo como atributo src o valor
-     imagePath do objeto recebido como prop.
-
-    deve renderizar o titulo do filme dentro de uma tag h4,
-     contido na propriedade title do objeto recebido como prop.
-
-    deve renderizar o subtitulo do filme dentro de tag h5,
-     contido na propriedade subtitle do objeto recebido como prop.
-
-    renderiza sinopse do filme como tag p,
-    contida na propriedade storyline recebido como prop.
-
-    renderiza componente Rating.
-
-    Passa para componente Rating prop chamada rating,
-     cujo valor é propriedade rating do objeto prop movie.*/
-  // }
-// }
-//
-// export default MovieCard;
+export default MovieCard;
