@@ -3,7 +3,9 @@ import React from 'react';
 
 class MovieList extends React.Component {
   render() {
-    return
+    return (
+      <div></div>
+    );
   }
 }
 
