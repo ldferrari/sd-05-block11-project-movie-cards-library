@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header title="Movie Cards Library" />
-      {/* Sua implementação deve ficar aqui. 
+      {/* Sua implementação deve ficar aqui.
       Remova essas duas linhas e mão na massa */}
       {/* deve renderizar Header e MovieList passando como prop Movies
        a lista contida no arquivo data.js, importando data.js no App.js */}
