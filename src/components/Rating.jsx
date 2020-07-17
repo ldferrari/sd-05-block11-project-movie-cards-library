@@ -4,7 +4,8 @@ import { render } from 'enzyme';
 
 class Rating extends React.component {
   render() {
-    // renderiza nota do filme na prop rating dentro de elemento com classe rating
+    /* renderiza nota do filme na prop
+     rating dentro de elemento com classe rating */
   }
 }
 
