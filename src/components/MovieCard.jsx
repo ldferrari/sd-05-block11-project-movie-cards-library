@@ -1,8 +1,8 @@
-// implement MovieCard component here
-import React from 'react';
 
-class MovieCard {
-  render() {
+// import React from 'react';
+
+// class MovieCard {
+  // render() {
     /* MovieCard recebe prop movie, será objeto, possuí title,
     subtitle, storyline, imagePath e rating.
 
@@ -22,7 +22,7 @@ class MovieCard {
 
     Passa para componente Rating prop chamada rating,
      cujo valor é propriedade rating do objeto prop movie.*/
-  }
-}
-
-export default MovieCard;
+  // }
+// }
+// 
+// export default MovieCard;
