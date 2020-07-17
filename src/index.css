@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.text-center {
+  text-align: center;
+}
+
+h4.text-center  {
+  font-size: 30px;
+}
+
+.displayMovie {
+
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie {
+  border: 1px solid black;
+  justify-content: center;
+  flex-basis: 33%;
+  padding: 15px;
+}
+
+.pictures {
+  max-width: 100%;
+  min-width: 500px;
+  height: auto;
+}
