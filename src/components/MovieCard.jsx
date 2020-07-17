@@ -24,5 +24,5 @@
      cujo valor é propriedade rating do objeto prop movie.*/
   // }
 // }
-// 
+//
 // export default MovieCard;
