@@ -40,3 +40,7 @@ h4.text-center  {
   min-width: 500px;
   height: auto;
 }
+
+.rating {
+  background-color: green;
+}
