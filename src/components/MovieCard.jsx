@@ -6,7 +6,11 @@ class MovieCard extends React.Component {
     return (
       <div className="movie-card">
         <div className="movie-card-body">
-          <img className="movie-card-image" src={this.props.movie.imagePath} alt={this.props.movie.title} />
+          <img
+            className="movie-card-image"
+            src={this.props.movie.imagePath}
+            alt={this.props.movie.title}
+          />
           {/* i had to specify props.movie because there was also the key prop */}
           <h4 className="movie-card-title">{this.props.movie.title}</h4>
           <h5 className="movie-card-subtitle">{this.props.movie.subtitle}</h5>
