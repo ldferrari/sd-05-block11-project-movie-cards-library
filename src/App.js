@@ -7,9 +7,9 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <div className="container">
-        <MovieList movies={movies}/>
+        <MovieList movies={movies} />
       </div>
     </div>
   );
