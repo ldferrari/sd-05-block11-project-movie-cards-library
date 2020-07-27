@@ -1,6 +1,6 @@
 // implement MovieCard component here
 import React from 'react';
-import '../App.css'
+import '../App.css';
 import Rating from './Rating';
 
 class MovieCard extends React.Component {
