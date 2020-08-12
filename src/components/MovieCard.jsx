@@ -9,7 +9,7 @@ export default class MovieCard extends React.Component {
         <p>{subtitle}</p>
         <p>{storyline}</p>
         <p>{rating}</p>
-        <img src={imagePath} alt='foto'/>
+        <img src={imagePath} alt="foto"/>
       </div>
     );
   }
