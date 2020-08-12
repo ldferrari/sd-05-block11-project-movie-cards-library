@@ -1,15 +1,14 @@
-// implement MovieList component here
 import React from 'react';
 import MovieCard from './MovieCard';
 
-class MovieList extends React.Component {
+export default class MovieList extends React.Component {
   render() {
-    const { movies } = this.props;
     return (
-      <div className="movie-list">
-        {movies.map((list) => <MovieCard key={list.title} movie={list} />)}
-      </div>
+     <div>
+       {this.props.movies.map(e => <MovieCard movie={e}/>)}
+     </div>
     );
   }
 }
-export default MovieList;
+
+// `esse é um template literals , a variável tem que ser escrita ${variavel}`
