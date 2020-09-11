@@ -1,4 +1,3 @@
-import ReactSixteenAdapter from 'enzyme-adapter-react-16';
 // implement MovieList component here
 import React from 'react';
 import MovieCard from './MovieCard';
